@@ -1,0 +1,44 @@
+.cnodeHeader{
+    background: #00c4ff;
+}
+
+.headerRow {
+    position: relative;
+}
+.cnodeFooter{
+    background: #dddddd;
+}
+
+.logo{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0;
+    
+}
+.cnodeMenu {
+    height: 62px;
+    margin-left: 60px;
+    line-height: 62px !important;
+    background: none;
+    border-bottom: none;
+    color: #fff;
+}
+.cnodeMenu .ant-menu{
+    background: none;
+
+}
+.cnodeMenu .ant-menu-item-selected > a {
+    color: #fff;
+}
+.cnodeMenu .ant-menu-item-active > a:hover {
+    color: #fff;
+}
+
+.collposeMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
